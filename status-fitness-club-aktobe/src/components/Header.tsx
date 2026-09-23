@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Phone, Menu, X, ArrowRight, MapPin, Clock, MessageSquare, Instagram, ExternalLink } from 'lucide-react';
 import { Language } from '../types';
 import { DICTIONARY } from '../data/content';
+import { getAssetUrl } from '../utils/assets';
 
 interface HeaderProps {
   language: Language;
@@ -80,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="relative w-8 h-8 sm:w-11 sm:h-11 rounded-xs overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-105 shadow-md bg-black border border-white/20 shrink-0">
               <img
-                src="/images/status_shield_logo.jpg"
+                src={getAssetUrl('/images/status_shield_logo.jpg')}
                 alt="STATUS Fitness Club Logo"
                 className="w-full h-full object-cover filter contrast-[110%] group-hover:brightness-110 transition-all duration-300"
               />
@@ -183,7 +184,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-xs overflow-hidden flex items-center justify-center bg-black border border-white/20">
                 <img
-                  src="/images/status_shield_logo.jpg"
+                  src={getAssetUrl('/images/status_shield_logo.jpg')}
                   alt="STATUS Logo"
                   className="w-full h-full object-cover filter contrast-[110%]"
                 />

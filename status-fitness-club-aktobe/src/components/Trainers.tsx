@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Award, Clock, ArrowRight, Instagram, Check, Filter } from 'lucide-react';
 import { Trainer, Language } from '../types';
 import { DICTIONARY, TRAINERS_DATA } from '../data/content';
+import { getAssetUrl } from '../utils/assets';
 
 interface TrainersProps {
   language: Language;
@@ -85,7 +86,7 @@ export const Trainers: React.FC<TrainersProps> = ({ language, onOpenBookingWithC
               <div className="relative h-72 sm:h-96 overflow-hidden bg-[#181818]">
                 <div className="w-full h-full group-hover:scale-105 transition-transform duration-500 ease-out">
                   <img
-                    src={coach.image}
+                    src={getAssetUrl(coach.image)}
                     alt={coach.name[language]}
                     className="w-full h-full object-cover filter grayscale-[10%] contrast-[108%] group-hover:grayscale-0 transition-all duration-500"
                     style={{

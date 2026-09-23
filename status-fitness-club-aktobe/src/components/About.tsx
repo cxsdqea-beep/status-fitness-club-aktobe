@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Layers, Wind, Droplets, Coffee, MapPin, Check, Shield, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Language } from '../types';
 import { DICTIONARY } from '../data/content';
+import { getAssetUrl } from '../utils/assets';
 
 const CLUB_PHOTOS = [
   {
@@ -189,7 +190,7 @@ export const About: React.FC<AboutProps> = ({ language, onOpenBooking }) => {
           <div className="lg:col-span-6 relative flex flex-col gap-3">
             <div className="relative overflow-hidden rounded-xs border border-[#333] group">
               <img
-                src={CLUB_PHOTOS[activePhoto].src}
+                src={getAssetUrl(CLUB_PHOTOS[activePhoto].src)}
                 alt={CLUB_PHOTOS[activePhoto].title[language]}
                 className="w-full h-80 sm:h-96 object-cover filter brightness-[90%] contrast-[105%] transition-all duration-500"
                 referrerPolicy="no-referrer"
@@ -247,7 +248,7 @@ export const About: React.FC<AboutProps> = ({ language, onOpenBooking }) => {
                   aria-label={photo.title[language]}
                 >
                   <img
-                    src={photo.src}
+                    src={getAssetUrl(photo.src)}
                     alt={photo.title[language]}
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"

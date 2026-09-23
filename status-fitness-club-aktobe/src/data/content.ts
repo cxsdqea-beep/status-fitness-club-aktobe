@@ -1726,7 +1726,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-1',
     type: 'video',
-    image: '/images/instagram_posts/post_2.jpg',
+    image: '/images/trainers_official/DNsUFmt2FZz.jpg',
     likes: 542,
     comments: 38,
     date: '3 дня назад',
@@ -1740,7 +1740,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-2',
     type: 'video',
-    image: '/images/instagram_posts/post_3.jpg',
+    image: '/images/trainers_official/DOBK2CYjKgm.jpg',
     likes: 618,
     comments: 47,
     date: '5 дней назад',
@@ -1754,7 +1754,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-3',
     type: 'video',
-    image: '/images/instagram_posts/post_4.jpg',
+    image: '/images/trainers_official/DOLT2faAZ_z.jpg',
     likes: 489,
     comments: 29,
     date: '1 неделю назад',
@@ -1768,7 +1768,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-4',
     type: 'video',
-    image: '/images/instagram_posts/post_5.jpg',
+    image: '/images/trainers_official/DOaRTg2jKUp.jpg',
     likes: 524,
     comments: 36,
     date: '1 неделю назад',

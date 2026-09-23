@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, ChevronLeft, ChevronRight, CheckCircle2, ShieldCheck } from 'lucide-react';
 import { Language } from '../types';
 import { DICTIONARY } from '../data/content';
+import { getAssetUrl } from '../utils/assets';
 
 interface HeroProps {
   language: Language;
@@ -85,7 +86,7 @@ export const Hero: React.FC<HeroProps> = ({ language, onOpenBooking }) => {
             style={{ transitionProperty: 'opacity, transform' }}
           >
             <img
-              src={slide.image}
+              src={getAssetUrl(slide.image)}
               alt={slide.tag[language]}
               className="w-full h-full object-cover object-center filter grayscale-[35%] brightness-[45%] contrast-[115%]"
               referrerPolicy="no-referrer"

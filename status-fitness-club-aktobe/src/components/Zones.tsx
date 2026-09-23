@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Check, ArrowRight, Dumbbell, Activity, UserCheck, Scale, QrCode } from 'lucide-react';
 import { Language } from '../types';
 import { DICTIONARY, ZONES_DATA } from '../data/content';
+import { getAssetUrl } from '../utils/assets';
 
 interface ZonesProps {
   language: Language;
@@ -45,7 +46,7 @@ export const Zones: React.FC<ZonesProps> = ({ language, onOpenBooking }) => {
           {/* Left Column: Image with badges */}
           <div className="lg:col-span-6 relative min-h-[260px] sm:min-h-[420px]">
             <img
-              src={currentZone.image}
+              src={getAssetUrl(currentZone.image)}
               alt={currentZone.title[language]}
               className="w-full h-full object-cover filter brightness-[75%] contrast-[110%]"
               referrerPolicy="no-referrer"
