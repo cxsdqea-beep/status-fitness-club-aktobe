@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-8 h-8 rounded-xs overflow-hidden flex items-center justify-center bg-black border border-white/20 shrink-0 shadow-md">
                   <img
-                    src={getAssetUrl('/images/status_shield_logo.jpg')}
+                    src={getAssetUrl('/images/status_shield_logo.webp')}
                     alt="STATUS Logo"
                     className="w-full h-full object-cover filter contrast-[110%]"
                   />

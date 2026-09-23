@@ -921,7 +921,7 @@ export const ZONES_DATA: ZoneItem[] = [
         'Deadlift platform with safety bumper plates',
       ],
     },
-    image: '/images/gym/status_dumbbell_zone.jpg',
+    image: '/images/gym/status_dumbbell_zone.webp',
   },
   {
     id: 'cardio',
@@ -966,7 +966,7 @@ export const ZONES_DATA: ZoneItem[] = [
         'Dedicated fresh air intake vents directly above workstations',
       ],
     },
-    image: '/images/gym/status_cardio_treadmills.jpg',
+    image: '/images/gym/status_cardio_treadmills.webp',
   },
   {
     id: 'personal',
@@ -1011,7 +1011,7 @@ export const ZONES_DATA: ZoneItem[] = [
         'Bi-weekly progress audits and load progression charts',
       ],
     },
-    image: '/images/gym/status_main_hall.jpg',
+    image: '/images/gym/status_main_hall.webp',
   },
   {
     id: 'diagnostics',
@@ -1056,7 +1056,7 @@ export const ZONES_DATA: ZoneItem[] = [
         'Printout report review with a head fitness specialist',
       ],
     },
-    image: '/images/gym/status_leverage_machines.jpg',
+    image: '/images/gym/status_leverage_machines.webp',
   },
   {
     id: 'onefit',
@@ -1101,7 +1101,7 @@ export const ZONES_DATA: ZoneItem[] = [
         'Optional personal coach pairings available directly on site',
       ],
     },
-    image: '/images/gym/status_free_weights.jpg',
+    image: '/images/gym/status_free_weights.webp',
   },
 ];
 
@@ -1139,7 +1139,7 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: 'Пауэрлифтингтен халықаралық дәрежедегі спорт шебері, Азия мен Еуропаның бірнеше дүркін чемпионы. 12 жылдан астам тәжірибесі бар. Сапалы бұлшықет жинау мен техниканы жетілдіруге маманданған.',
       EN: 'Elite International Master of Sport with over 12 years of iron experience. Multi-time European and Asian champion focusing on safe biomechanics, serious muscle mass, and powerlifting coaching.',
     },
-    image: '/images/trainers_official/1_DNSd3bFMDrV.jpg',
+    image: '/images/trainers_official/1_DNSd3bFMDrV.webp',
     imagePosition: 'center 15%',
     imageTransform: 'scale(1.02)',
     instagram: 'status__aktobe',
@@ -1177,9 +1177,9 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: '13 жылдан астам тәжірибесі бар білікті маман. Күштік, функционалдық және оңалту жаттығуларын жүргізеді. Жасөспірімдермен және денсаулығын қалпына келтірушілермен жұмыс істейді.',
       EN: 'Over 13 years of practical training background. Conducts functional, strength, and recovery workouts, adapting movements for teenagers and older adults alike.',
     },
-    image: '/images/trainers_official/2_DNsUFmt2FZz.jpg',
-    imagePosition: 'center 28%',
-    imageTransform: 'scale(1.16) translateY(-4%)',
+    image: '/images/trainers_official/2_DNsUFmt2FZz.webp',
+    imagePosition: 'center 15%',
+    imageTransform: 'scale(1.02)',
     instagram: 'status__aktobe',
   },
   {
@@ -1215,9 +1215,9 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: 'Бодибилдингтен БҚО чемпионатының жүлдегері. Сенімді салмақ тастау, дене тонусы мен әдемі мүсінге қол жеткізу үшін жеке жаттығу жоспарлары мен тамақтану мәзірін құрады.',
       EN: 'WKO bodybuilding medalist. Builds custom workout regimens and practical dietary schedules to help clients achieve steady fat loss, physique tone, and positive motivation.',
     },
-    image: '/images/trainers_official/3_DOBK2CYjKgm.jpg',
-    imagePosition: 'center 32%',
-    imageTransform: 'scale(1.14) translateY(-3%)',
+    image: '/images/trainers_official/3_DOBK2CYjKgm.webp',
+    imagePosition: 'center 18%',
+    imageTransform: 'scale(1.02)',
     instagram: 'status__aktobe',
   },
   {
@@ -1253,9 +1253,9 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: 'Эндокринология, нутрициология және фитнесті біріктіретін заманауи әдіс. Сіздің медициналық талдауларыңыз негізінде тамақтануды реттеп, шаршауды жеңіп, тұрақты салмақ нәтижесін береді.',
       EN: 'Integrates endocrinology, biochemistry, and strength training. Corrects hormonal imbalances and nutrient deficiencies from bloodwork for durable, rebound-free physical transformation.',
     },
-    image: '/images/trainers_official/4_DOLT2faAZ_z.jpg',
-    imagePosition: 'center 60%',
-    imageTransform: 'scale(1.36) translateY(-17%)',
+    image: '/images/trainers_official/4_DOLT2faAZ_z.webp',
+    imagePosition: 'center 75%',
+    imageTransform: 'scale(1.08) translateY(-5%)',
     instagram: 'endofomin_',
   },
   {
@@ -1291,9 +1291,9 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: 'Пауэрлифтингтен әлем чемпионатының жеңімпазы (407 кг), Азия чемпионы. Базалық қозғалыстардың мінсіз техникасын, күш пен бұлшықеттің жылдам әрі қауіпсіз өсуін үйретеді.',
       EN: 'Reigning World Powerlifting Champion with a 407kg total. Coaches elite mechanics on squat, bench, and deadlift for explosive power development and injury-free muscle building.',
     },
-    image: '/images/trainers_official/5_DOaRTg2jKUp.jpg',
-    imagePosition: 'center 75%',
-    imageTransform: 'scale(1.34) translateY(-15%)',
+    image: '/images/trainers_official/5_DOaRTg2jKUp.webp',
+    imagePosition: '45% 80%',
+    imageTransform: 'scale(1.06) translateY(-5%)',
     instagram: 'status__aktobe',
   },
   {
@@ -1329,7 +1329,7 @@ export const TRAINERS_DATA: Trainer[] = [
       KZ: 'STATUS залының жаттықтырушысы. Білек пен ұстау күшін арттыруға, қол күресінің қыр-сырын үйренуге және нақты әдістемемен рельефті дене жасауға көмектеседі.',
       EN: 'STATUS coach specializing in balanced aesthetic proportions, armwrestling leverage techniques, and unbreakable grip and tendon strength through systematic training.',
     },
-    image: '/images/trainers_official/6_DPGhKYrDJ45.jpg',
+    image: '/images/trainers_official/6_DPGhKYrDJ45.webp',
     imagePosition: 'center 35%',
     imageTransform: 'scale(1.15) translateY(-5%)',
     instagram: 'status__aktobe',
@@ -1726,7 +1726,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-1',
     type: 'video',
-    image: '/images/trainers_official/DNsUFmt2FZz.jpg',
+    image: '/images/trainers_official/DNsUFmt2FZz.webp',
     likes: 542,
     comments: 38,
     date: '3 дня назад',
@@ -1740,7 +1740,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-2',
     type: 'video',
-    image: '/images/trainers_official/DOBK2CYjKgm.jpg',
+    image: '/images/trainers_official/DOBK2CYjKgm.webp',
     likes: 618,
     comments: 47,
     date: '5 дней назад',
@@ -1754,7 +1754,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-3',
     type: 'video',
-    image: '/images/trainers_official/DOLT2faAZ_z.jpg',
+    image: '/images/trainers_official/DOLT2faAZ_z.webp',
     likes: 489,
     comments: 29,
     date: '1 неделю назад',
@@ -1768,7 +1768,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-4',
     type: 'video',
-    image: '/images/trainers_official/DOaRTg2jKUp.jpg',
+    image: '/images/trainers_official/DOaRTg2jKUp.webp',
     likes: 524,
     comments: 36,
     date: '1 неделю назад',
@@ -1782,7 +1782,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-5',
     type: 'video',
-    image: '/images/gym/status_cardio_treadmills.jpg',
+    image: '/images/gym/status_cardio_treadmills.webp',
     likes: 673,
     comments: 52,
     date: '2 недели назад',
@@ -1796,7 +1796,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'post-6',
     type: 'video',
-    image: '/images/gym/status_main_hall.jpg',
+    image: '/images/gym/status_main_hall.webp',
     likes: 742,
     comments: 64,
     date: '2 недели назад',

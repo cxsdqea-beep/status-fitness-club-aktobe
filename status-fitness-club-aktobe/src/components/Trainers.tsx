@@ -88,6 +88,10 @@ export const Trainers: React.FC<TrainersProps> = ({ language, onOpenBookingWithC
                   <img
                     src={getAssetUrl(coach.image)}
                     alt={coach.name[language]}
+                    loading="lazy"
+                    decoding="async"
+                    width="360"
+                    height="480"
                     className="w-full h-full object-cover filter grayscale-[10%] contrast-[108%] group-hover:grayscale-0 transition-all duration-500"
                     style={{
                       objectPosition: coach.imagePosition || 'center center',

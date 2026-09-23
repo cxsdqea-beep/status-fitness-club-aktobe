@@ -6,31 +6,31 @@ import { getAssetUrl } from '../utils/assets';
 
 const CLUB_PHOTOS = [
   {
-    src: '/images/gym/status_main_hall.jpg',
+    src: '/images/gym/status_main_hall.webp',
     tag: { RU: 'ГЛАВНЫЙ ЗАЛ • ПАНОРАМА', KZ: 'НЕГІЗГІ ЗАЛ • ПАНОРАМА', EN: 'MAIN HALL • PANORAMA' },
     title: { RU: 'Основной зал и силовые станции', KZ: 'Негізгі зал және күш станциялары', EN: 'Main gym floor & stations' },
     level: { RU: '1 УРОВЕНЬ', KZ: '1 ДЕҢГЕЙ', EN: 'TIER 1' },
   },
   {
-    src: '/images/gym/status_cardio_treadmills.jpg',
+    src: '/images/gym/status_cardio_treadmills.webp',
     tag: { RU: 'КАРДИО-ЗОНА С ВИДОМ', KZ: 'ПАНОРАМАЛЫҚ КАРДИО АЙМАҒЫ', EN: 'PANORAMIC CARDIO DECK' },
     title: { RU: 'Беговые дорожки и кардио-линия', KZ: 'Жүгіру жолдары мен кардио-линиясы', EN: 'Treadmills & cardio line' },
     level: { RU: '2 УРОВЕНЬ', KZ: '2 ДЕҢГЕЙ', EN: 'TIER 2' },
   },
   {
-    src: '/images/gym/status_dumbbell_zone.jpg',
+    src: '/images/gym/status_dumbbell_zone.webp',
     tag: { RU: 'ГАНТЕЛЬНЫЙ РЯД И СКАМЬИ', KZ: 'ГАНТЕЛЬ ҚАТАРЫ ЖӘНЕ ОРЫНДЫҚТАР', EN: 'DUMBBELL RACK & BENCHES' },
     title: { RU: 'Свободные веса и скамьи для жима', KZ: 'Еркін салмақтар мен жим орындықтары', EN: 'Dumbbells & workout benches' },
     level: { RU: '1 УРОВЕНЬ', KZ: '1 ДЕҢГЕЙ', EN: 'TIER 1' },
   },
   {
-    src: '/images/gym/status_leverage_machines.jpg',
+    src: '/images/gym/status_leverage_machines.webp',
     tag: { RU: 'СИЛОВЫЕ РЫЧАЖНЫЕ ТРЕНАЖЕРЫ', KZ: 'ИІНТІРЕКТІ КҮШТІК ТРЕНАЖЕРЛЕР', EN: 'STRENGTH & LEVERAGE MACHINES' },
     title: { RU: 'Изолированные силовые тренажеры', KZ: 'Оқшауланған күштік тренажерлер', EN: 'Plate-loaded leverage equipment' },
     level: { RU: '1 УРОВЕНЬ', KZ: '1 ДЕҢГЕЙ', EN: 'TIER 1' },
   },
   {
-    src: '/images/gym/status_free_weights.jpg',
+    src: '/images/gym/status_free_weights.webp',
     tag: { RU: 'СВОБОДНЫЕ ВЕСА И БЛИНЫ', KZ: 'ЕРКІН САЛМАҚТАР МЕН ДИСКІЛЕР', EN: 'FREE WEIGHTS & OLYMPIC PLATES' },
     title: { RU: 'Стойки с дисками и зоны базы', KZ: 'Дискілері бар тіреуіштер және базалық аймақ', EN: 'Olympic plates and racks' },
     level: { RU: '1 УРОВЕНЬ', KZ: '1 ДЕҢГЕЙ', EN: 'TIER 1' },
@@ -192,6 +192,8 @@ export const About: React.FC<AboutProps> = ({ language, onOpenBooking }) => {
               <img
                 src={getAssetUrl(CLUB_PHOTOS[activePhoto].src)}
                 alt={CLUB_PHOTOS[activePhoto].title[language]}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-80 sm:h-96 object-cover filter brightness-[90%] contrast-[105%] transition-all duration-500"
                 referrerPolicy="no-referrer"
               />

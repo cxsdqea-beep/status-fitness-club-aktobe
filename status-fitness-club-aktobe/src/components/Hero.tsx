@@ -11,7 +11,7 @@ interface HeroProps {
 
 const HERO_SLIDES = [
   {
-    image: '/images/gym/status_main_hall.jpg',
+    image: '/images/gym/status_main_hall.webp',
     tag: {
       RU: 'STATUS GYM AKTOBE • ГЛАВНЫЙ ТРЕНАЖЕРНЫЙ ЗАЛ',
       KZ: 'STATUS GYM AKTOBE • БАСТЫ ЖАТТЫҒУ ЗАЛЫ',
@@ -19,7 +19,7 @@ const HERO_SLIDES = [
     },
   },
   {
-    image: '/images/gym/status_cardio_treadmills.jpg',
+    image: '/images/gym/status_cardio_treadmills.webp',
     tag: {
       RU: 'STATUS GYM AKTOBE • КАРДИО-ЗОНА И ТРЕНАЖЕРЫ',
       KZ: 'STATUS GYM AKTOBE • КАРДИО-АЙМАҚ ЖӘНЕ ТРЕНАЖЕРЛЕР',
@@ -27,7 +27,7 @@ const HERO_SLIDES = [
     },
   },
   {
-    image: '/images/gym/status_dumbbell_zone.jpg',
+    image: '/images/gym/status_dumbbell_zone.webp',
     tag: {
       RU: 'STATUS GYM AKTOBE • СВОБОДНЫЕ ВЕСА И ГАНТЕЛЬНЫЙ РЯД',
       KZ: 'STATUS GYM AKTOBE • ЕРКІН САЛМАҚТАР ЖӘНЕ ГАНТЕЛЬ ҚАТАРЫ',
@@ -35,7 +35,7 @@ const HERO_SLIDES = [
     },
   },
   {
-    image: '/images/gym/status_leverage_machines.jpg',
+    image: '/images/gym/status_leverage_machines.webp',
     tag: {
       RU: 'STATUS GYM AKTOBE • СИЛОВАЯ ЛИНИЯ НА МАРЕСЬЕВА 4Д',
       KZ: 'STATUS GYM AKTOBE • МАРЕСЬЕВ 4Д КҮШТІК ҚАТАРЫ',
@@ -43,7 +43,7 @@ const HERO_SLIDES = [
     },
   },
   {
-    image: '/images/gym/status_free_weights.jpg',
+    image: '/images/gym/status_free_weights.webp',
     tag: {
       RU: 'STATUS GYM AKTOBE • ПРОФЕССИОНАЛЬНОЕ ОБОРУДОВАНИЕ',
       KZ: 'STATUS GYM AKTOBE • КӘСІБИ ЖАБДЫҚТАУ',
