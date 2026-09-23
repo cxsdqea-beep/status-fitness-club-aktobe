@@ -6,6 +6,7 @@
     "dev": "npm --prefix status-fitness-club-aktobe run dev",
     "build": "npm --prefix status-fitness-club-aktobe run build",
     "preview": "npm --prefix status-fitness-club-aktobe run preview",
-    "lint": "npm --prefix status-fitness-club-aktobe run lint"
+    "lint": "npm --prefix status-fitness-club-aktobe run lint",
+    "deploy": "npm --prefix status-fitness-club-aktobe run deploy"
   }
 }
