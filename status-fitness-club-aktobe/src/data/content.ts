@@ -1254,8 +1254,8 @@ export const TRAINERS_DATA: Trainer[] = [
       EN: 'Integrates endocrinology, biochemistry, and strength training. Corrects hormonal imbalances and nutrient deficiencies from bloodwork for durable, rebound-free physical transformation.',
     },
     image: '/images/trainers_official/4_DOLT2faAZ_z.webp',
-    imagePosition: 'center 75%',
-    imageTransform: 'scale(1.08) translateY(-5%)',
+    imagePosition: 'center 15%',
+    imageTransform: 'scale(1.02)',
     instagram: 'endofomin_',
   },
   {
@@ -1292,8 +1292,8 @@ export const TRAINERS_DATA: Trainer[] = [
       EN: 'Reigning World Powerlifting Champion with a 407kg total. Coaches elite mechanics on squat, bench, and deadlift for explosive power development and injury-free muscle building.',
     },
     image: '/images/trainers_official/5_DOaRTg2jKUp.webp',
-    imagePosition: '45% 80%',
-    imageTransform: 'scale(1.06) translateY(-5%)',
+    imagePosition: 'center 15%',
+    imageTransform: 'scale(1.02)',
     instagram: 'status__aktobe',
   },
   {
