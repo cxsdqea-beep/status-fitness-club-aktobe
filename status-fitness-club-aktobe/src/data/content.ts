@@ -1330,8 +1330,8 @@ export const TRAINERS_DATA: Trainer[] = [
       EN: 'STATUS coach specializing in balanced aesthetic proportions, armwrestling leverage techniques, and unbreakable grip and tendon strength through systematic training.',
     },
     image: '/images/trainers_official/6_DPGhKYrDJ45.webp',
-    imagePosition: 'center 35%',
-    imageTransform: 'scale(1.15) translateY(-5%)',
+    imagePosition: 'center 15%',
+    imageTransform: 'scale(1.02)',
     instagram: 'status__aktobe',
   },
 ];
