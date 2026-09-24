@@ -139,7 +139,7 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Clickable Phone Link: Icon on mobile / xl, full number on sm-lg & 2xl */}
             <a
               id="header-phone-link"
-              href="tel:+77079418515"
+              href="tel:+77079344533"
               className="flex items-center gap-1.5 sm:gap-2 text-xs font-bold text-[#E0E0E0] hover:text-white transition-colors group shrink-0 whitespace-nowrap"
               title={language === 'KZ' ? 'STATUS клубына қоңырау шалу' : language === 'EN' ? 'Call STATUS club' : 'Позвонить в клуб STATUS'}
             >
@@ -147,7 +147,7 @@ export const Header: React.FC<HeaderProps> = ({
                 <Phone className="w-3.5 h-3.5 text-white" />
               </div>
               <span className="font-mono text-xs 2xl:text-sm tracking-wide text-white whitespace-nowrap font-bold hidden md:inline xl:hidden 2xl:inline">
-                +7 (707) 941-85-15
+                +7 (707) 934-45-33
               </span>
             </a>
 
@@ -253,14 +253,14 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Quick Contact & Info Card */}
             <div className="p-3.5 bg-[#141414] border border-[#262626] rounded-xs space-y-2.5">
               <a
-                href="tel:+77079418515"
+                href="tel:+77079344533"
                 className="flex items-center gap-3 text-white text-sm font-bold hover:text-gray-300 transition-colors"
               >
                 <div className="w-8 h-8 rounded-full bg-[#202020] flex items-center justify-center border border-[#333] shrink-0">
                   <Phone className="w-3.5 h-3.5 text-white" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-mono text-sm text-white">+7 (707) 941-85-15</span>
+                  <span className="font-mono text-sm text-white">+7 (707) 934-45-33</span>
                   <span className="text-[10px] text-emerald-400 font-mono">
                     {language === 'KZ' ? 'Дс-Сб 07:00–23:00 • Жс 09:00–22:00' : language === 'EN' ? 'Mon-Sat 07:00–23:00 • Sun 09:00–22:00' : 'Пн-Сб 07:00–23:00 • Вс 09:00–22:00'}
                   </span>
@@ -278,7 +278,7 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Social Links Row */}
             <div className="flex items-center gap-2 pt-1">
               <a
-                href="https://wa.me/77079418515"
+                href="https://wa.me/77079344533"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 py-2.5 bg-[#141414] hover:bg-[#1E1E1E] border border-[#2B2B2B] text-white text-xs font-bold rounded-xs flex items-center justify-center gap-2 transition-colors"

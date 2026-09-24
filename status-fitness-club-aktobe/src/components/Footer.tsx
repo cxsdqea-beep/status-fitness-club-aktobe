@@ -125,14 +125,14 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
               <ul className="space-y-3 text-xs">
                 <li className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-white shrink-0" />
-                  <a href="tel:+77079418515" className="text-white hover:underline font-mono">
-                    +7 (707) 941-85-15
+                  <a href="tel:+77079344533" className="text-white hover:underline font-mono">
+                    +7 (707) 934-45-33
                   </a>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-[#888] shrink-0" />
-                  <a href="tel:+77079348515" className="hover:text-white transition-colors font-mono">
-                    +7 (707) 934-85-15
+                  <a href="tel:+77754599523" className="hover:text-white transition-colors font-mono">
+                    +7 (775) 459-95-23
                   </a>
                 </li>
                 <li className="flex items-start gap-2.5">
@@ -180,11 +180,11 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/77079418515"
+                  href="https://wa.me/77079344533"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xs bg-[#141414] border border-[#2D2D2D] hover:border-white text-white flex items-center justify-center transition-colors"
-                  aria-label="WhatsApp +77079418515"
+                  aria-label="WhatsApp +77079344533"
                 >
                   <MessageCircle className="w-5 h-5" />
                 </a>
@@ -276,10 +276,10 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                 </div>
                 <div className="flex items-center gap-3">
                   <a
-                    href="tel:+77079418515"
+                    href="tel:+77079344533"
                     className="text-white hover:underline font-bold"
                   >
-                    +7 (707) 941-85-15
+                    +7 (707) 934-45-33
                   </a>
                   <span>•</span>
                   <a
@@ -369,8 +369,8 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                   : language === 'EN'
                   ? 'For any inquiries, contact our front desk concierge: '
                   : 'По всем вопросам вы можете обратиться к администратору: '}
-                <a href="https://wa.me/77079418515" target="_blank" rel="noopener noreferrer" className="text-white hover:underline font-bold">
-                  WhatsApp +7 (707) 941-85-15
+                <a href="https://wa.me/77079344533" target="_blank" rel="noopener noreferrer" className="text-white hover:underline font-bold">
+                  WhatsApp +7 (707) 934-45-33
                 </a>
               </div>
 

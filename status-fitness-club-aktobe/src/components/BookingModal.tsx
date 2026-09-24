@@ -457,7 +457,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
     setIsSuccess(true);
     setTimeout(() => {
-      window.open(`https://wa.me/77079418515?text=${text}`, '_blank');
+      window.open(`https://wa.me/77079344533?text=${text}`, '_blank');
       setIsSuccess(false);
       onClose();
     }, 800);
@@ -759,10 +759,10 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             <div className="text-center">
               <p className="text-[10px] text-[#777] font-mono">
                 {language === 'KZ'
-                  ? '* Чат тікелей STATUS Aktobe ресми әкімшісімен ашылады: +7 (707) 941-85-15'
+                  ? '* Чат тікелей STATUS Aktobe ресми әкімшісімен ашылады: +7 (707) 934-45-33'
                   : language === 'EN'
-                  ? '* Chat opens directly with official STATUS Aktobe reception: +7 (707) 941-85-15'
-                  : '* Чат открывается напрямую с официальным администратором STATUS Aktobe: +7 (707) 941-85-15'}
+                  ? '* Chat opens directly with official STATUS Aktobe reception: +7 (707) 934-45-33'
+                  : '* Чат открывается напрямую с официальным администратором STATUS Aktobe: +7 (707) 934-45-33'}
               </p>
             </div>
           </form>

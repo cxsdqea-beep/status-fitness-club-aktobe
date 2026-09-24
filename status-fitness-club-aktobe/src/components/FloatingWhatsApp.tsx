@@ -21,7 +21,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ language }) 
     EN: 'Hello, STATUS club! I would like to inquire about training sessions.',
   };
 
-  const whatsappUrl = `https://wa.me/77079418515?text=${encodeURIComponent(textPresets[language])}`;
+  const whatsappUrl = `https://wa.me/77079344533?text=${encodeURIComponent(textPresets[language])}`;
 
   return (
     <div className="fixed bottom-4 sm:bottom-6 right-3.5 sm:right-6 z-40 flex flex-col items-end gap-2 pointer-events-none">

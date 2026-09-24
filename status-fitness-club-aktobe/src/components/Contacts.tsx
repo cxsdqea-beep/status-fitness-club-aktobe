@@ -36,7 +36,7 @@ export const Contacts: React.FC<ContactsProps> = ({ language }) => {
       : 'Хочу узнать подробнее об абонементах и тренировках';
 
     const message = `${greeting}%0A• ${nameLabel}: ${name || clientWord}%0A• ${phoneLabel}: ${phone}%0A• ${goalLabel}: ${goal || defaultGoal}`;
-    const whatsappUrl = `https://wa.me/77079418515?text=${message}`;
+    const whatsappUrl = `https://wa.me/77079344533?text=${message}`;
 
     setIsSubmitted(true);
     setTimeout(() => {
@@ -104,19 +104,19 @@ export const Contacts: React.FC<ContactsProps> = ({ language }) => {
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 mt-2">
                     <a
-                      href="tel:+77079418515"
+                      href="tel:+77079344533"
                       className="font-condensed font-bold text-lg text-white hover:text-gray-300 transition-colors flex items-center gap-2"
                     >
-                      <span className="underline decoration-white/40 underline-offset-4">+7 (707) 941-85-15</span>
+                      <span className="underline decoration-white/40 underline-offset-4">+7 (707) 934-45-33</span>
                       <span className="text-[10px] font-mono px-1.5 py-0.5 bg-emerald-950 text-emerald-300 border border-emerald-800 rounded">
                         WhatsApp
                       </span>
                     </a>
                     <a
-                      href="tel:+77079348515"
+                      href="tel:+77754599523"
                       className="font-condensed font-bold text-lg text-[#AAA] hover:text-white transition-colors"
                     >
-                      +7 (707) 934-85-15
+                      +7 (775) 459-95-23
                     </a>
                   </div>
                 </div>

@@ -765,7 +765,7 @@ export const CLUB_RULES_LEGAL_DATA: {
           },
           {
             label: 'Телефоны рецепции',
-            text: '+7 (707) 941-85-15 (основной/WhatsApp), +7 (707) 934-85-15 (дополнительный).',
+            text: '+7 (707) 934-45-33 (основной/WhatsApp), +7 (775) 459-95-23 (дополнительный).',
           },
           {
             label: 'Социальные сети и навигаторы',
@@ -783,7 +783,7 @@ export const CLUB_RULES_LEGAL_DATA: {
           },
           {
             label: 'Рецепция телефондары',
-            text: '+7 (707) 941-85-15 (негізгі / WhatsApp), +7 (707) 934-85-15.',
+            text: '+7 (707) 934-45-33 (негізгі / WhatsApp), +7 (775) 459-95-23.',
           },
           {
             label: 'Әлеуметтік желілер мен карталар',
@@ -801,7 +801,7 @@ export const CLUB_RULES_LEGAL_DATA: {
           },
           {
             label: 'Direct Phones',
-            text: '+7 (707) 941-85-15 (Primary / WhatsApp), +7 (707) 934-85-15.',
+            text: '+7 (707) 934-45-33 (Primary / WhatsApp), +7 (775) 459-95-23.',
           },
           {
             label: 'Social & Map Navigation',
